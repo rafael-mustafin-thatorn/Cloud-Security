@@ -1,3 +1,4 @@
+<img width="381" alt="ELK" src="https://user-images.githubusercontent.com/84407865/120538276-28653280-c39b-11eb-9369-86cf37a3d037.png">
 # Homework
 Homework #13
 AUTOMATED ELK STACK DEPLOYMENT
