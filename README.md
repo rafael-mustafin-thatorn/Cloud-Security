@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 ![alt text](https://github.com/rafael-mustafin-thatorn/Homework/blob/main/Diagrams/ELK.png)
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install only certain pieces of it, such as Filebeat.
 
   - [yml Playbooks](https://github.com/rafael-mustafin-thatorn/Homework/blob/main/Ansible/filebeat-playbook.yml)
 This document contains the following details:
@@ -58,9 +58,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![alt text]
+![alt text](https://github.com/rafael-mustafin-thatorn/Homework/blob/main/Ansible/ELK)
 
-Elk Playbook used can be found [Here]
 
 
 
@@ -77,7 +76,6 @@ These Beats allow us to collect the following information from each machine:
 - <b>Filebeat</b> - Filebeat detects changes to the filesystem. We are using this to monitor our Web Log data. 
 - <b>Metricbeat</b> - Metricbeat detects changes in system metrics, such as CPU usage. We use it to detect SSH login attempts, failed sudo escalations, and CPU/RAM statistics.
 
-The Ansible Playbooks used can be found [here]
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
